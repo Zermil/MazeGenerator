@@ -1,5 +1,4 @@
 # MathEval
-![preview](./preview_image.jpg)
 Maze generator in console written in C++ using [depth-first search](https://en.wikipedia.org/wiki/Maze_generation_algorithm)
 
 ## Quick start
