@@ -17,10 +17,16 @@ Maze generator for console and SDL written in C++ using [depth-first search](htt
 > a.exe
 ```
 
-### SDL_x64_VC:
+### SDL2_Maze:
 
-This 'build' is using SDL for 64bit machine, but AFAIK you can use x86 / 32bit SDL and it will
-work just fine. This 'build' is also using Visual Studio Community IDE to compile everything.
+If you want to compile through console / terminal on Windows:
+
+```console
+> build
+> main
+```
+
+If you're using Visual Studio:
 
 ### `Build and Run`:
 - In Project->Properties->Configuration Properties->VC++ Directories | Add to: Include Directories -> `dependencies/include`, Library Directories -> `dependencies/lib`
