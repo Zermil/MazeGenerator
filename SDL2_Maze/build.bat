@@ -1,0 +1,1 @@
+call g++ main.cpp "src/Line.cpp" "src/Window.cpp" -o main -I"dependencies/include" -L"dependencies/lib" -lSDL2main -lSDL2 -lmingw32
