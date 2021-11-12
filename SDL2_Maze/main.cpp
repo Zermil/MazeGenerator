@@ -60,13 +60,13 @@ int main(int argc, char* argv[])
   generateMaze();
   getMazeLines();
 
-  while (window.isOpen()) {
-    for (const auto& line : lines) {
+  for (const auto& line : lines) {
       line->draw();
-    }
-
-    window.getEvents();
-    window.render();
+  }
+  
+  window.render();
+  while (window.isOpen()) {
+    window.getEvents();  
   }
 
   lines.clear();
