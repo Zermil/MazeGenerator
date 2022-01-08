@@ -31,4 +31,4 @@ If you're using Visual Studio:
 ### `Build and Run`:
 - In Project->Properties->Configuration Properties->VC++ Directories | Add to: Include Directories -> `dependencies/include`, Library Directories -> `dependencies/lib`
 - In Project->Properties->Linker->Input->Additional Dependencies | Add: `SDL2.lib` and `SDL2main.lib`
-- After you build your solution / project, add `SDL2.dll` to the folder containing your `.exe` file
+- After you build your solution / project, add `SDL2.dll` to the folder containing your `Solution`
